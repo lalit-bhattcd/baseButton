@@ -1,0 +1,63 @@
+*{
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.bulb{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px 100px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flame{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+
+    animation: PracAnimate 5s linear none infinite;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+        gap: 20px;
+}
+      
+.button{
+    border: 2px solid rgb(255, 243, 243);
+    font-size: 20px;
+    font-family:  sans-serif;
+    width: 40px;
+    height: 100px;
+
+}
+.button:hover{
+    color: rgb(200, 0, 0);
+    cursor: pointer;
+}
+/* @keyframes PracAnimate{
+    0%{
+        transform: rotateX(20deg);
+    }
+    25%{
+        transform: rotateY(40deg);
+    }
+    50%{
+        transform: rotateZ(20deg);
+    }
+    75%{
+        transform: rotateX(40deg);
+    }
+    100%{
+        transform: rotateY(20deg);
+    }
+} */
