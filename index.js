@@ -15,25 +15,6 @@ button.addEventListener('click' , ()=>{
         button.style.filter ="drop-shadow(3px 3px 3px rgb(255, 255, 255))";
         button.style.background = "linear-gradient(315deg , yellow ,white)";
         button.style.backgroundSize = "cover";
-
-//     flame.style.@keyframes PracAnimate{
-//     0%{
-//         transform: rotateX(20deg);
-//     }
-//     25%{
-//         transform: rotateY(40deg);
-//     }
-//     50%{
-//         transform: rotateZ(20deg);
-//     }
-//     75%{
-//         transform: rotateX(40deg);
-//     }
-//     100%{
-//         transform: rotateY(20deg);
-//     }
-// }
-    }
     else{
         flame.style.background = "none";
         bulb.style.background = "none";
